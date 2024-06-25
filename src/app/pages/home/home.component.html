@@ -1,0 +1,37 @@
+<br>
+<br>
+<br>
+<header class="container mt-4">
+    <h1 class="text-center">Bienvenido a Vinilos Dissonic.</h1>
+  </header>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8">
+        <!-- Columna principal para los productos -->
+        <div class="card">
+          <img [src]="currentProduct.image" class="card-img-top" alt="{{ currentProduct.name }}" style="border-radius: 30px;" style="max-width: 300px; max-height: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">{{ currentProduct.name }}</h5>
+            <p class="card-text">{{ currentProduct.price | currency }}</p>
+            <a class="btn btn-link" [routerLink]="currentProduct.routerLink">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <!-- Columna lateral para otro contenido -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Descubre la Autenticidad del Vinilo</h5>
+            <p class="card-text">
+              Explora nuestra colección exclusiva de vinilos y sumérgete en la experiencia única de escuchar música con calidad analógica. Desde clásicos legendarios hasta nuevos lanzamientos, cada vinilo es una pieza de arte sonoro que transforma cada escucha en un momento especial.</p>
+            <!-- Puedes agregar más contenido aquí según sea necesario -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>

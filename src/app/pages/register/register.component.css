@@ -1,0 +1,69 @@
+form {
+  max-width: 600px;
+  margin: auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 255, 0.2); /* Fondo azul transparente */
+  color: white; /* Letras blancas */
+}
+
+fieldset {
+  margin-bottom: 1em;
+  padding: 0;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: .5em;
+  color: white; /* Letras blancas */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="checkbox"] {
+  border: 1px solid #CCCCCC;
+  padding: .5em;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: .5em;
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo de input ligeramente transparente */
+  color: white; /* Letras blancas */
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+input[type="number"]::placeholder {
+  color: #ddd; /* Color de placeholder claro */
+}
+
+.error {
+  color: red;
+  font-size: .875em;
+  margin-top: -.5em;
+  margin-bottom: 1em;
+}
+
+button {
+  padding: .5em 1em;
+  border: none;
+  border-radius: .5em;
+  background-color: #007BFF;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+}
+
+button:disabled {
+  background-color: #CCCCCC;
+  cursor: not-allowed;
+}

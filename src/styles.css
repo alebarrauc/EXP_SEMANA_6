@@ -1,0 +1,105 @@
+  body {
+    background-image: url('../src/assets/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    color: white;
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    z-index: 1000; /* Ajusta según sea necesario */
+  }
+
+
+  .navbar-text {
+    /* Estilos para el texto a la derecha */
+    color: #ffffff; /* Color del texto */
+    font-weight: bold; /* Opcional: ajusta el peso de la fuente */
+    margin-right: auto;
+}
+
+  .card {
+    background-color: rgba(83, 4, 148, 0.364);
+    color: white;
+    transition: background-color 0.3s ease;
+    display: flex;
+  flex-direction: column; /* Columna para apilar verticalmente el contenido */
+  align-items: center; /* Centra horizontalmente el contenido */
+  justify-content: center; /* Centra verticalmente el contenido */
+  background-color: rgba(0, 0, 0, 0.5); /* Ejemplo de fondo semi-transparente */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 0,5px; /* Bordes redondeados */
+  color: white; /* Color de texto blanco */
+  width: fit-content; /* Ancho ajustado al contenido */
+  margin: auto; /* Centra horizontalmente el elemento */
+  }
+  .card:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .card-title {
+    color: white; /* Color de texto blanco */
+    font-size: 14px; /* Tamaño de fuente pequeño (ajusta según necesites) */
+    font-weight: bold; /* Fuente en negrita (opcional, ajusta según necesites) */
+  }
+
+  .card-text {
+    color: white; /* Color de texto blanco */
+    font-size: 16px; /* Tamaño de fuente pequeño (ajusta según necesites) */
+    font-weight: bold; /* Fuente en negrita (opcional, ajusta según necesites) */
+  }
+  .btn {
+    display: block; /* Hace que el botón sea un elemento de bloque */
+    width: 100px; /* Ancho de ejemplo, ajusta según tus necesidades */
+    margin: auto; /* Centra horizontalmente dentro de su contenedor */
+  }
+
+  .btn:hover {
+    background-color: rebeccapurple; /* Nuevo color de fondo al pasar el mouse */
+  }
+
+  .nav-link {
+    position: relative;
+    color:white;
+  }
+
+  #cart-count {
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+
+  #cart-total {
+    color: black;
+  }
+
+  .navbar-brand {
+    margin-left: 20px;
+    background-color: #af193a;
+  }
+
+
+
+  .is-valid {
+    border-color: #28a745;
+  }
+
+  .is-invalid {
+    border-color: #dc3545;
+  }
